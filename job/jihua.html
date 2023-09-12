@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta
+      name="format-detection"
+      content="telephone=no,telephone=no,email=no,adress=no"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"
+    />
+    <title>9L</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/nav.js"></script>
+    <link href="./fonts/iconfont.css" rel="stylesheet" type="text/css" />
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="./css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-logo" href="#">
+            <img src="images/logo.png" alt="" />
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right" id="nav">
+            <li class="">
+              <a href="index.html#home">Trang chủ</a>
+            </li>
+            <li class="">
+              <a href="index.html#about">Giới thiệu về 9L</a>
+            </li>
+            <li class="">
+              <a href="index.html#hedge">Ưu điểm của nền tảng</a>
+            </li>
+            <li class="">
+              <a href="index.html#safe">An toàn và đáng tin cậy</a>
+            </li>
+
+            <li class="active">
+              <a href="jihua.html">Kế hoạch</a>
+            </li>
+            <li class="">
+              <a href="daili.html">Đại lý</a>
+            </li>
+            <li class="">
+              <a href="qa.html">Q&A</a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="jh-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="text-0">Xây dựng kế hoạch</div>
+          <div class="text-0">vốn đầu tư phù hợp nhất với bạn</div>
+          <div class="text-1">
+            Bạn hoàn toàn có thể nắm bắt được xu hướng quỹ đầu tư và quy mô rủi
+            ro khi đầu tư của mình.
+          </div>
+        </div>
+        <div class="jh-row">
+          <div class="col">
+            <div class="jh-item item-1">
+              <div class="ball"></div>
+              <div class="text-3">Mỗi ngày</div>
+              <div class="text-4">2%</div>
+              <div class="text-5">
+                Chỉ số bóng đá lớn nhất<br />
+                Rủi ro thấp nhất<br />
+                Tính ổn định cao
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="jh-item item-2">
+              <div class="ball"></div>
+              <div class="text-3">Mỗi ngày</div>
+              <div class="text-4">8%</div>
+              <div class="text-5">
+                Chỉ số bóng đá nhỏ<br />
+                Rủi ro thấp<br />
+                Tính ổn định trung bình
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="jh-item item-3">
+              <div class="ball"></div>
+              <div class="text-3">Mỗi ngày</div>
+              <div class="text-4">15%</div>
+              <div class="text-5">
+                Chỉ số bóng đá hòa<br />
+                Rủi ro trung bình<br />
+                Tính ổn định thấp
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="jh-item item-4">
+              <div class="ball"></div>
+              <div class="text-3">Mỗi ngày</div>
+              <div class="text-4">40%</div>
+              <div class="text-5">
+                Chỉ số bóng đá hiệp 1<br />
+                Rủi ro cao<br />
+                Tính ổn định rất thấp
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="footer">
+		xxxxxxx
+	</div> -->
+    <!-- <div class="kefu-link">
+		<a href="https://chatlink.mstatik.com/widget/standalone.html?eid=cbdc792bf14258ccfcf34a6627a375ed&language=en" target="_blank" class="link">
+			<img src="images/kefu.png" alt="">
+		</a>
+	</div> -->
+    <script>
+      var swiper = new Swiper(".caseSwiper", {
+        navigation: {
+          nextEl: ".swiper-c-next",
+          prevEl: ".swiper-c-prev",
+        },
+      });
+      var swiper = new Swiper(".honnerSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+          el: ".h-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-h-next",
+          prevEl: ".swiper-h-prev",
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+      var swiper = new Swiper(".bannerSwiper", {
+        slidesPerView: 1,
+        autoplay: {
+          delay: 4500, // 自动播放间隔时间
+          disableOnInteraction: false, // 用户操作后是否停止自动播放
+        },
+        pagination: {
+          el: ".sw-pagination",
+          clickable: true,
+        },
+        loop: true,
+      });
+    </script>
+    <script>
+      $(function () {
+        $("#nav").onePageNav();
+      });
+    </script>
+  </body>
+</html>
