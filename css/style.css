@@ -14,6 +14,13 @@ img {
   background: url(../images2/background-bong-da-3.jpg) center no-repeat;
   background-size: cover;
 }
+.box-button-banner{
+  padding-top: 20px;
+  display: flex;
+  background-color: #1c1c1c;
+  justify-content: center;
+  column-gap: 30px;
+}
 .plat-section {
   background-color: #1c1c1c;
 }
@@ -217,7 +224,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: calc(100vh - 120px);
+  height: 60vh;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -285,12 +292,17 @@ img {
   width: 100%;
 }
 @media (max-width: 992px) {
+  .box-button-banner{
+    row-gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
   .team-cells {
     /* flex-direction: row-reverse; */
     column-gap: 20px;
   }
   .index-banner {
-    height: 50vh;
+    height: 20vh;
   }
   .sw-grid p {
     font-size: 15px;
