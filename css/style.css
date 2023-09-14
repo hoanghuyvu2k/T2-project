@@ -362,6 +362,12 @@ img {
   }
 }
 @media (min-width: 1492px) {
+ .logo-qa{
+    position: absolute;
+    left: -350px;
+    top: 10px;
+    display: block !important;
+  }
   .sw-grid h2 {
     font-size: 80px;
   }
@@ -590,6 +596,13 @@ img {
 }
 .qa-main .panel-group {
   padding: 20px 8%;
+}
+.qa-main{
+  position: relative;
+}
+.qa-main .logo-qa{
+  
+  display: none;
 }
 @media (max-width: 768px) {
   .qa-tabs {
